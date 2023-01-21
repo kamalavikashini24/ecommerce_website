@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3stores.com |e-commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+     <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/WhatsApp_Image_2022-01-08_at_2.45.50_PM-removebg-preview.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" alt="cart" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu" onclick="menutoggle()">
+        </div>
+        
+
+     </div>
+    </div>
+    <h1 class="myname1">About us</h1>
+
+    <!-- testimonial -->
+    <div class="testimoniala">
+        <div class="small-container">
+            <div class="row">
+                <div class="us">
+                    
+                    <p>Considering that the chain’s main draw is high quality food at low prices, it makes sense that customers might question how Trader Joe’s can afford to charge less than other brands. This short explanation answers that question, and it’s easy to see how it could be very effective at drawing new customers to their local store.
+
+                    </p>
+                    
+                   <!-- <img src="images/user-1.png">
+                   <h1 class="myname">Kamalavikashini</h1> -->
+                </div>
+                <div class="us">
+                    
+                    <p>We and our team have been successfully running this website for more than 3 years and I did not find any complaint in any product. All the items ordered by me, were delivered before the expected date of delivery and this happens every time so I can conclude that it is perfect and make the delivery of items happen in time and website is completely reliable.</p>
+                    
+                   <!-- <img src="images/user-2.png">
+                   <h1 class="myname">Pooja</h1> -->
+                </div>
+                <div class="us">
+                   
+                    <p>As an organization that works to protect the environment, it’s hard to imagine that anything could be more effective at demonstrating their mission than a photo of the land they conserve. And while they go into more detail lower on the page about their goals and strategies, the bold headline they chose is an accurate and succinct summary of what they do.
+
+                    </p>
+                    
+                   <!-- <img src="images/user-3.png">
+                   <h1 class="myname">Prashitha Shree</h1> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios Mobile Phones.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/WhatsApp_Image_2022-01-08_at_2.45.50_PM-removebg-preview.png">
+                    <p>Our Purpose is to sustainably make the pleasure and benefits of Sports Accessible to Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Blog Post</li>
+                       <li>Return Policy</li>
+                       <li>Join Affiliate</li>
+                   </ul>
+                </div>
+
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                 <ul>
+                   <li>Instagram</li>
+                   <li>Facebook</li>
+                   <li>Twitter</li>
+                   <li>YouTube</li>
+                 </ul>
+            </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - We3Stores</p>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        var MenuItems=document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight="0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "opx";
+            }
+        }
+    </script>
+    
+    
+</body>
+</html>
